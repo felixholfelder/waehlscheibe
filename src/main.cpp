@@ -36,7 +36,7 @@ void setup() {
     pinMode(WORKING_PIN, INPUT_PULLUP);
     pinMode(COUNTING_PIN, INPUT_PULLUP);
 
-    Keyboard.begin(KeyboardLayout_de_DE);
+    Keyboard.begin(KEYBOARD_LAYOUT);
 }
 
 void loop() {

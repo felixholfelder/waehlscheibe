@@ -1,8 +1,10 @@
 #ifndef DIAL_CONFIG_H
 #define DIAL_CONFIG_H
 
-const int DIAL_MAP[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+#define KEYBOARD_LAYOUT KeyboardLayout_de_DE
 
+const int DIAL_MAP[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+const bool USE_DIGIT_STRINGS = true;
 const char* const DIGIT_STRINGS[10] = {
     "Harald ", // 0
     "a ", // 1
@@ -15,7 +17,5 @@ const char* const DIGIT_STRINGS[10] = {
     "is ", // 8
     "Neun" // 9
 };
-
-const bool USE_DIGIT_STRINGS = true;
 
 #endif // DIAL_CONFIG_H
