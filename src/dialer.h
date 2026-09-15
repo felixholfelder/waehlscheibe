@@ -19,7 +19,6 @@ public:
     bool update() {
         if (isWorking()) {
             if (!_wasWorking) {
-                // Wahlvorgang beginnt
                 _counter = 0;
                 _lastCountingState = isCounting();
                 _wasWorking = true;
